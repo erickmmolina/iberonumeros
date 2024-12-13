@@ -1,0 +1,172 @@
+.iberonumeros-widget {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background: #f9f9f9;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.iberonumeros-search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.iberonumeros-search-form label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.iberonumeros-country-selector {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.iberonumeros-country-dropdown-container {
+    position: relative;
+}
+
+.iberonumeros-country-input {
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    width: 200px;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.iberonumeros-country-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 2px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 999;
+}
+
+.iberonumeros-country-option {
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.iberonumeros-country-option:hover {
+    background: #eee;
+}
+
+.iberonumeros-search-form input[type="text"] {
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.iberonumeros-search-btn {
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.iberonumeros-search-btn:hover {
+    background: #005d8f;
+}
+
+.iberonumeros-results {
+    margin-top: 10px;
+}
+
+.iberonumeros-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.iberonumeros-table th, .iberonumeros-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.iberonumeros-table thead {
+    background: #eee;
+    font-weight: bold;
+}
+
+
+.iberonumeros-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #ccc;
+    border-top: 3px solid #0073aa;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+@keyframes spin {
+    100% {transform: rotate(360deg);}
+}
+
+.iberonumeros-message {
+    padding: 10px;
+    background: #fff3cd;
+    border: 1px solid #ffeeba;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.caps-grid {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.cap-col {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Supongamos que tienes icon-font o SVG */
+.icon-phone:before {
+    content: "📞";
+}
+.icon-sms:before {
+    content: "💬";
+}
+.icon-mms:before {
+    content: "🖼️";
+}
+.icon-fax:before {
+    content: "📠";
+}
+
+.dimmed {
+    opacity: 0.3;
+}
+.button-me-interesa {
+    display: inline-block;
+    background-color: #25D366; /* Color de WhatsApp */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}

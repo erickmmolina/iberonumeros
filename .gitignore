@@ -46,3 +46,21 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon?
+
+# Spotlight files
+.Spotlight-V100
+.Trashes
+
+# Cache files
+._*
+
+# Thumbs files (en caso de un sistema de archivos compartido con Windows)
+Thumbs.db
